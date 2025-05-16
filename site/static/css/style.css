@@ -1,0 +1,41 @@
+body {
+    background-color: #6999d1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background-image: url('C:\site\static\img\  cmo e.png');
+    background-size: cover;
+    height: 70vh;
+    flex: 1;
+}
+
+.btn-custom {
+    background-color: #030508;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #0c335b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.service-card {
+    transition: transform 0.3s;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+   background-color: #03060c;
+}
